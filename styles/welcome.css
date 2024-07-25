@@ -1,0 +1,61 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../assets/bookbg.jpg);
+    background-position: center top;
+    background-size: 100% auto;
+    background-attachment: fixed;
+}
+
+.container {
+    max-width: 80%;
+    /* background-color: rgb(188, 125, 247); */
+    padding: 34px;
+    margin: auto;
+}
+
+.welcometext {
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+}
+
+.specialoffertext {
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.catcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    /* position: relative; */
+    /* background-color: red; */
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.black-background1 {
+    background-color:#F24D4D;
+}
+
+.black-background1:hover {
+    background-color: #CA0404;
+}
+
+.white1 {
+    color:#ffffff;
+}
+
+.footercontainer {
+    background-color: black;
+}

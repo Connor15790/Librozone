@@ -1,0 +1,33 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../assets/bookbg.jpg);
+    background-position: center top;
+    background-size: 100% auto;
+    background-attachment: fixed;
+}
+
+.container {
+    max-width: 80%;
+    /* background-color: rgb(188, 125, 247); */
+    padding: 34px;
+    margin: auto;
+}
+
+.abouttext {
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    text-decoration: underline;
+}
+
+.aboutbody {
+    text-align: justify;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    font-family: Arial, Helvetica, sans-serif;
+}

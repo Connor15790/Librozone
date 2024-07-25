@@ -1,0 +1,47 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../assets/bookbg.jpg);
+    background-position: center top;
+    background-size: 100% auto;
+    background-attachment: fixed;
+}
+
+.container {
+    max-width: 80%;
+    /* background-color: rgb(188, 125, 247); */
+    padding: 34px;
+    margin: auto;
+}
+
+.savedbooktext {
+    text-align: left;
+    text-decoration: underline;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+}
+
+.cardcontainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.bookcontainer {
+    display: flex;
+}
+
+.black-background1 {
+    background-color:#F24D4D;
+}
+
+.black-background1:hover {
+    background-color: #CA0404;
+}
+
+.white1 {
+    color:#ffffff;
+}
